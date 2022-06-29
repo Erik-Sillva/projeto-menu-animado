@@ -48,6 +48,10 @@ body {
     justify-content: center;
 }
 
+.navbar ul li a:active {
+    cursor: none;
+}
+
 .navbar ul li a i {
     color: #7d2ae8;
     font-size: 38px;
@@ -98,3 +102,4 @@ body {
     border-bottom-left-radius: 20px;
     box-shadow: 0 10px 0 #7d2ae8;
 }
+
