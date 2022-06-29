@@ -39,12 +39,6 @@ body {
     position: relative;
 }
 
-.navbar ul li:active {
-    text-decoration: none;
-    list-style: none;
-    background: none;
-}
-
 .navbar ul li a {
     position: relative;
     height: 120px;
