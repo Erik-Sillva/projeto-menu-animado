@@ -44,9 +44,21 @@ body {
     height: 120px;
     width: 90px;
     display: flex;
+    border-radius: 20px;
+    background-color: white;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.navbar ul li a:active {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.navbar ul li a:hover {
+    border-radius: 20px;
+    background-color: white;
 }
 
 .navbar ul li a i {
@@ -98,12 +110,4 @@ body {
     background: white;
     border-bottom-left-radius: 20px;
     box-shadow: 0 10px 0 #7d2ae8;
-}
-
-@media (max-width:750px) {
-    
-    .navbar ul li a {
-        cursor: none;
-    }
-
 }
