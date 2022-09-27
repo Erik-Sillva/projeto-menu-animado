@@ -20,7 +20,7 @@ body {
 
 .navbar {
     position: relative;
-    height: 120px;
+    max-height: 120px;
     width: 500px;
     background: white;
     border-radius: 20px;
@@ -42,7 +42,7 @@ body {
 .navbar ul li a {
     position: relative;
     height: 120px;
-    width: 90px;
+    width: 5em;
     display: flex;
     border-radius: 20px;
     background-color: white;
@@ -79,7 +79,7 @@ body {
 
 .indicator {
     position: absolute;
-    bottom: -19px;
+    bottom: -20px;
     left: 34px;
     width: 25px;
     height: 36px;
@@ -107,7 +107,7 @@ body {
     bottom: 50%;
     height: 22px;
     width: 20px;
-    background: white;
+    background: rgb(255, 255, 255);
     border-bottom-left-radius: 20px;
     box-shadow: 0 10px 0 #7d2ae8;
 }
