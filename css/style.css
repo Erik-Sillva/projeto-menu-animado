@@ -21,7 +21,7 @@ body {
 
 .navbar {
     position: relative;
-    max-width: 500px;
+    max-width: 80%;
     max-height: 120px;
     padding: 40px;
     border-radius: 20px;
